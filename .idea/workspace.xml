@@ -47,7 +47,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="JUnit.FileReaderTest,readTestSpace and 4 more">
+  <component name="RunManager" selected="JUnit.FileReaderTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flexon.Main" />
       <module name="FileReader" />
@@ -57,6 +57,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FileReader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flexon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flexon" />
+      <option name="MAIN_CLASS_NAME" value="com.flexon.FileReaderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,8 +92,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FileReaderTest,readTestSpace and 4 more" />
+        <item itemvalue="JUnit.FileReaderTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FileReaderTest,readTestSpace and 4 more" />
       </list>
     </recent_temporary>
   </component>

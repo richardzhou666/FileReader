@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.flexon.FileReaderTest" time="0.028" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.flexon.FileReaderTest" time="0.031" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\RichardZhou\.jdks\openjdk-14.0.1-1\bin"/>
-    <property name="sun.java.command" value="C:\Users\RICHAR~1\AppData\Local\Temp\surefire764509628994001262\surefirebooter1826418380804136187.jar C:\Users\RichardZhou\AppData\Local\Temp\surefire764509628994001262 2020-07-01T12-31-09_483-jvmRun1 surefire12934863306278166999tmp surefire_08817622292762826835tmp"/>
+    <property name="sun.java.command" value="C:\Users\RICHAR~1\AppData\Local\Temp\surefire6278688439719507732\surefirebooter16988354465812248764.jar C:\Users\RichardZhou\AppData\Local\Temp\surefire6278688439719507732 2020-07-01T12-36-14_586-jvmRun1 surefire3454976766881845513tmp surefire_01062370565479662303tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\RichardZhou\Documents\Flexon\FileReader\target\test-classes;C:\Users\RichardZhou\Documents\Flexon\FileReader\target\classes;C:\Users\RichardZhou\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\RichardZhou\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="idea.version2020.1.2" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\RICHAR~1\AppData\Local\Temp\surefire764509628994001262\surefirebooter1826418380804136187.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\RICHAR~1\AppData\Local\Temp\surefire6278688439719507732\surefirebooter16988354465812248764.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -59,6 +59,6 @@
   <testcase name="printTest" classname="com.flexon.FileReaderTest" time="0.005"/>
   <testcase name="reversedTest" classname="com.flexon.FileReaderTest" time="0"/>
   <testcase name="frequencyTest" classname="com.flexon.FileReaderTest" time="0"/>
-  <testcase name="readTestComma" classname="com.flexon.FileReaderTest" time="0"/>
+  <testcase name="readTestComma" classname="com.flexon.FileReaderTest" time="0.001"/>
   <testcase name="readTestSpace" classname="com.flexon.FileReaderTest" time="0"/>
 </testsuite>
