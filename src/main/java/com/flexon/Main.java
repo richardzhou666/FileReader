@@ -5,5 +5,4 @@ public class Main {
         FileReader fr = new FileReader();
         fr.reversePrint("C:\\Users\\RichardZhou\\Documents\\Flexon\\FileReader\\src\\main\\java\\com\\flexon\\text3.txt");
     }
-
 }
