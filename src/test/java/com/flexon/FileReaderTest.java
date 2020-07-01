@@ -9,7 +9,7 @@ public class FileReaderTest {
     @Test
     public void readTestSpace() {
         FileReader fr = new FileReader();
-        ArrayList<String> wl = fr.readRaw("C:\\Users\\RichardZhou\\Documents\\Flexon\\FileReader\\src\\main\\java\\com\\flexon\\text.txt");
+        ArrayList<String> wl = fr.readRaw("src\\main\\java\\com\\flexon\\text.txt");
         assertEquals("This", wl.get(0));
         assertEquals("is", wl.get(1));
         assertEquals("a", wl.get(2));
@@ -21,7 +21,7 @@ public class FileReaderTest {
     @Test
     public void readTestComma() {
         FileReader fr = new FileReader();
-        ArrayList<String> wl = fr.readRaw("C:\\Users\\RichardZhou\\Documents\\Flexon\\FileReader\\src\\main\\java\\com\\flexon\\text2.txt");
+        ArrayList<String> wl = fr.readRaw("src\\main\\java\\com\\flexon\\text2.txt");
         assertEquals("This", wl.get(0));
         assertEquals("is", wl.get(1));
         assertEquals("a", wl.get(2));
@@ -33,14 +33,14 @@ public class FileReaderTest {
     @Test
     public void reversedTest() {
         FileReader fr = new FileReader();
-        ArrayList<String> wl = fr.reverse("C:\\Users\\RichardZhou\\Documents\\Flexon\\FileReader\\src\\main\\java\\com\\flexon\\text3.txt");
+        ArrayList<String> wl = fr.reverse("src\\main\\java\\com\\flexon\\text3.txt");
         assertEquals("noxelf", wl.get(0));
     }
 
     @Test
     public void frequencyTest() {
         FileReader fr = new FileReader();
-        ArrayList<String> wl = fr.readRaw("C:\\Users\\RichardZhou\\Documents\\Flexon\\FileReader\\src\\main\\java\\com\\flexon\\text3.txt");
+        ArrayList<String> wl = fr.readRaw("src\\main\\java\\com\\flexon\\text3.txt");
         HashMap<String, Integer> wordMap = fr.toHashMap(wl);
         Integer actual = wordMap.get("flexon");
         Integer expected = 7;
@@ -53,7 +53,7 @@ public class FileReaderTest {
     @Test
     public void printTest() {
         FileReader fr = new FileReader();
-        fr.print("C:\\Users\\RichardZhou\\Documents\\Flexon\\FileReader\\src\\main\\java\\com\\flexon\\text3.txt");
-        fr.reversePrint("C:\\Users\\RichardZhou\\Documents\\Flexon\\FileReader\\src\\main\\java\\com\\flexon\\text3.txt");
+        fr.print("src\\main\\java\\com\\flexon\\text3.txt");
+        fr.reversePrint("src\\main\\java\\com\\flexon\\text3.txt");
     }
 }
